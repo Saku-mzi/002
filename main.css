@@ -17,3 +17,11 @@ main {
 main div {
   background-color: rgb(194, 176, 176);
 }
+
+#one {
+  text-align: center;
+}
+#four {
+  font-family: Inter, Ariel, sans-serif;
+  text-align: justify;
+}
