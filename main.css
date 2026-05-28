@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  color: black;
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+main {
+  border: 2px solid green;
+  height: 50vh;
+  width: calc(200% / 3);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 3rem auto 0 auto;
+}
+div#bio {
+  border: 2px solid red;
+}
+div#gallery {
+  border: 2px solid blue;
+}
