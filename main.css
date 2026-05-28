@@ -5,16 +5,15 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 main {
-  border: 2px solid green;
-  height: 50vh;
+  height: 65vh;
   width: calc(200% / 3);
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin: 3rem auto 0 auto;
+  gap: 0.5rem;
 }
-div#bio {
-  border: 2px solid red;
-}
-div#gallery {
-  border: 2px solid blue;
+
+main div {
+  background-color: rgb(194, 176, 176);
 }
