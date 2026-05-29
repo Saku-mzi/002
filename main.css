@@ -9,30 +9,54 @@ main {
   height: 65vh;
   width: calc(200% / 3);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: auto auto auto;
   margin: 3rem auto 0 auto;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 main div {
   text-align: center;
   text-transform: capitalize;
+  contain: content;
+  alignment-baseline: middle;
 }
 
 #one {
   text-align: center;
+  margin: 0 auto 10px auto;
 }
 
-#four {
-  font-family: Inter, Ariel, sans-serif;
+#pro-pic {
+  margin: 0px auto 0 auto;
+}
+#heading {
+  font-size: 1.8rem;
+  margin: 20px auto 15px auto;
+  text-transform: uppercase;
+}
+
+#three {
   text-align: justify;
+  margin: 10px auto 20px auto;
 }
 
-#seven {
+#five {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto 20px auto;
+}
+
+#two {
+  text-align: center;
+  margin: 10px auto 10px auto;
+  text-transform: uppercase;
+}
+#images {
+  margin: 10px auto 0 auto;
+}
+#images2 {
+  margin: 10px auto 10px auto;
 }
