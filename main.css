@@ -63,25 +63,35 @@ main div {
 
 #artwork1:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 60%;
+  transition: all 0.5s ease-in-out;
 }
 #artwork2:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 60%;
+  transition: all 0.5s ease-in-out;
 }
 #artwork3:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 60%;
+  transition: all 0.5s ease-in-out;
 }
 #artwork4:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 60%;
+  transition: all 0.5s ease-in-out;
 }
 #artwork5:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 60%;
+  transition: all 0.5s ease-in-out;
 }
 #artwork6:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 60%;
+  transition: all 0.5s ease-in-out;
+}
+
+#artwork1:active {
+  size: 200%;
 }
