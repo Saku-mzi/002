@@ -60,3 +60,28 @@ main div {
 #images2 {
   margin: 10px auto 10px auto;
 }
+
+#artwork1:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+#artwork2:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+#artwork3:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+#artwork4:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+#artwork5:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+#artwork6:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
